@@ -1,0 +1,12 @@
+this is what is happening       
+EJS page loads once (GET /)##use to have a render the page or show the page
+        ↓
+User clicks buttons#to create the expression using vanilla js
+        ↓
+JS fetch() sends expression## again usign js vanilla fetch we are sending data in the /calculate by HTTP protocal
+        ↓
+Node calculates## here the node mathjs package use the calculate the expression and again sending the the vanilla js code and it representing in ejs
+        ↓
+res.json({ result })## this is how backend sending data
+        ↓
+UI updates display## and here the fucntion calling by the command clicked helps to append the sended result
