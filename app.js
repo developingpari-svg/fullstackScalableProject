@@ -16,6 +16,7 @@ app.post("/calculate", (req, res) => {
     const { expression } = req.body;
     const result = evaluate(expression);
 
+    
     res.json({ result });
   } catch (error) {
     res.json({ result: "Error" });

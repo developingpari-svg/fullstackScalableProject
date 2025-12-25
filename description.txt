@@ -10,3 +10,6 @@ Node calculates## here the node mathjs package use the calculate the expression 
 res.json({ result })## this is how backend sending data
         ↓
 UI updates display## and here the fucntion calling by the command clicked helps to append the sended result
+
+#### there is onclick is used to have a function called will click the and that is happening in the button 
+<button onclick='append(val)'>
