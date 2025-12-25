@@ -24,5 +24,5 @@ app.post("/calculate", (req, res) => {
 
 
 app.listen(3000, () =>
-  console.log("Calculator running → http://localhost:3000")
+  console.log("i am running in the port 3000")
 );

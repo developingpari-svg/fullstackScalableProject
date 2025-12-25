@@ -43,7 +43,7 @@ bodyy.addEventListener("keydown", (e) => {
   } else if (e.key === "Backspace") {
     display.value = display.value.slice(0, -1);
   } else if (e.key === "Escape") {
-    e.preventDefault();
+    e.preventDefault();x
     clearDisplay();
   }
 });
@@ -53,4 +53,7 @@ function addToHistory(exp, result) {
   const li = document.createElement("li");
   li.textContent = `${exp} = ${result}`;
   historyList.prepend(li);
+}
+function clearhistory(){
+historyList.textContent='';
 }
